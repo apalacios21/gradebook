@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradebook</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="center">
+<header>
+    <h1>Student Gradebook</h1>
+</header>
+<form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="pEarned">Points Earned</label>
+    <input type="number" id="pEarned" name="pEarned"><br>
+
+    <label for="pPossible">Points Possible</label>
+    <input type="number" id="pPossible" name="pPossible"><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h3>Score</h3>
+<p id="outputName"></p>
+<p id="outputPercent"></p>
+<p id="outputGrade"></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>

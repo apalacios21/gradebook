@@ -1,0 +1,12 @@
+
+button{
+    background-color: bisque;
+}
+
+div.center{
+    background-color: lightblue;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
